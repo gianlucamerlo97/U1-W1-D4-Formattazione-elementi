@@ -55,6 +55,9 @@ ul li code {
   background-color: grey;
 }
 /* TABELLE */
+table {
+  border-bottom-color: blue;
+}
 table thead {
   background-color: blue;
 }

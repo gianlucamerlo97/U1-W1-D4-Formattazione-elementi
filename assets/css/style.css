@@ -1,13 +1,63 @@
 /* IMPOSTAZIONI GENERALI */
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background-image: url(/img/sfondo.png);
+  display: inline block;
+}
 
 /* HEADER */
+header {
+  margin-left: 10px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 88, 121, 0.980357108663778) 35%, rgba(0, 212, 255, 1) 100%);
+}
+header img {
+  padding-top: 20px;
+  border-color: white;
+}
 
 /* MAIN */
-
+main {
+  background-color: white;
+  margin-left: 23px;
+  margin-right: 23px;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-top: 3%;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 
-/* TABELLE */
+main article section {
+  background-color: gray;
+}
+main article section h2 {
+}
 
+article section form {
+  text-align: center;
+}
+main article p strong {
+  color: purple;
+}
+
+ul li code {
+  background-color: grey;
+}
+/* TABELLE */
+table thead {
+  background-color: blue;
+}
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */

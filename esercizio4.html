@@ -12,20 +12,27 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
-  <body>
-    <header>
+  <body class="poppins-regular">
+    <header style="text-align: center">
       <div>
         <img src="/img/logo.svg" alt="logo del blog" width="250" height="60" />
         <p>Epicode - Il blog dei developers</p>
       </div>
       <nav>
-        <ul>
-          <li><a href="index.html" title="Home Page">Home</a></li>
+        <ul style="text-align: center">
+          <li><i class="fas fa-arrow-right"></i><a href="index.html" title="Home Page">Home</a></li>
           <li>
+            <i class="fas fa-arrow-right"></i>
             <a href="articoli.html" title="Elenco degli articoli tecnici pubblicati">Articoli</a>
           </li>
           <li>
+            <i class="fas fa-arrow-right"></i>
             <a href="contatti.html" title="Candidati inviando un tuo cv">Job</a>
           </li>
         </ul>
@@ -110,7 +117,7 @@
           allowfullscreen
         ></iframe>
         <section>
-          <h2>Novità</h2>
+          <h2 style="text-align: center">Novità</h2>
           <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
           <form>
             <input type="email" name="user_email" id="user_email" placeholder="inserisci l'email" required />
@@ -119,7 +126,7 @@
         </section>
       </article>
     </main>
-    <aside>
+    <aside style="text-align: center">
       <h2>Articoli correlati</h2>
       <div>
         <a href="post2.html" title="Passaggi guidati per validare correttamente tutto il codice sviluppato">Validare il codice HTML</a>
@@ -140,7 +147,7 @@
       </div>
     </aside>
     <hr />
-    <footer>
+    <footer style="text-align: center">
       <p>Blog Epicode &copy;2023</p>
       <address>
         Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.
